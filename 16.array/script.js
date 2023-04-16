@@ -34,7 +34,7 @@ let numbers = [
   5, 6, 3, 7, 3, 7,
 ];
 let numberindex = [];
-numbers.filter((number, index) => {
+numbers.forEach((number, index) => {
   if (number == 7) {
     numberindex.push(index);
   }
@@ -87,8 +87,8 @@ const todos = [
   },
 ];
 const compIstrue = todos.filter((el) => el.completed == true);
-console.log(compIstrue);
+// console.log(compIstrue);
 
 6; ////////
 const titleLeng = todos.filter((el) => el.title.length > 40);
-console.log(titleLeng);
+// console.log(titleLeng);
