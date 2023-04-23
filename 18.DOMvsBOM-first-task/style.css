@@ -1,0 +1,32 @@
+button{
+    height: 30px;
+    width: 70px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+span{
+    color: blue;
+}
+.stpbtn{
+    background-color: red;
+}
+.plus1, .minus1{
+    width: 130px;
+    background-color: rgb(36, 36, 188);
+}
+.reset{
+    background-color: red;
+    font-size: 18px;
+    color: black;
+    width: 90px;
+}
+#specifyvalue{
+    border: 1px solid red;
+}
+.addvalue{
+    width: 200px;
+    height: 25px;
+    background-color: bisque;
+    color: #000;
+}
