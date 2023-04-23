@@ -6,7 +6,7 @@ let plus1 = document.querySelector(".plus1");
 let minus1 = document.querySelector(".minus1");
 let plusvalue = document.querySelector(".plusvalue");
 let numvalue=document.querySelector("#value");
-console.log(numvalue);
+
 start.style.backgroundColor = "green";
 start.style.color = "white";
 start.style.width = "70px";
