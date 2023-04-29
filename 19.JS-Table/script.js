@@ -738,6 +738,9 @@ search.addEventListener("input", function () {
 dataId.addEventListener("click", function () {
   bool = !bool;
   let sorted;
+  ascName.style.display="none";
+  dscName.style.display="none";
+  dataName.style.color="";
   if (bool) {
     sorted = data.sort((a, b) => b.id - a.id);
     asc.style.display = "inline";
@@ -756,6 +759,9 @@ dataId.addEventListener("click", function () {
 dataName.addEventListener("click", function () {
   bool = !bool;
   let sortedByName;
+  asc.style.display="none";
+  dsc.style.display="none";
+  dataId.style.color="";
   if (bool) {
     sortedByName = data.sort((a, b) =>
       b.first_name.localeCompare(a.first_name)
