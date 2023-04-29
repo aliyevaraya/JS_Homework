@@ -1,3 +1,3 @@
 # JS_Homework
-+ https://18dom-bom.netlify.app/
-+ https://19events.netlify.app/
++ 18-https://18dom-bom.netlify.app/
++ 19-https://data-of-table.netlify.app/
