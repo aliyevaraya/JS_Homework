@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(249, 230, 206);
+  font-size: 20px;
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 30px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.container #result {
+  background: #000;
+  border-radius: 8px;
+  color: white;
+  text-align: right;
+}
+.container .values input {
+  background: white;
+}
+.container button {
+  background-color: rgb(228, 231, 231);
+}
+.container #reset {
+  background-color: rgb(255, 94, 0);
+  border-radius: 0;
+  border: 3px solid;
+}
+
+@media only screen and (max-width: 767px) {
+  .values .value1,
+  .values .value2 {
+    width: 100%;
+  }
+  .values .value1{
+    margin-bottom: 10px;
+  }
+  .values .value2{
+    margin-top: 10px;
+  }
+}
