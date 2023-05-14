@@ -4,10 +4,6 @@ const header = document.querySelector("#header-section");
 const headerInfo = document.querySelector(".header-info");
 const links = document.querySelectorAll(".footer-link");
 
-let mediaQuery=window.matchMedia("(max-width: 1023px)")
-
-if (mediaQuery.matches) {
-  console.log("havagi");
   menu_icon.addEventListener("click", () => {
     navBar.classList.remove("nav-menu");
     navBar.classList.toggle("header-menu");
@@ -20,11 +16,6 @@ if (mediaQuery.matches) {
       navBar.style.display = "none";
     }
   });
-} else {
-  console.log("hi");
-  navBar.style.display = "block";
-  navBar.className = "nav-menu";
-}
 
 links.forEach((link) =>
   link.addEventListener("click", () => {
